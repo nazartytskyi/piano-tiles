@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keyboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="teoria.js"></script>
+  <script src="tone.js"></script>
+</head>
+
+<body>
+  <button>Start</button>
+  <div id="app-wrapper" class="wrapper">
+    <div class="tiles-container">
+      <div class="tiles">
+        <div data-note="A0" class="tile-row white">
+          <div data-note="Ab0" class="tile-row black"></div>
+        </div>
+        <div data-note="B0" class="tile-row white">
+          <div data-note="Bb0" class="tile-row black"></div>
+        </div>
+
+
+        <div data-note="C1" class="tile-row white"></div>
+        <div data-note="D1" class="tile-row white">
+          <div data-note="Db1" class="tile-row black"></div>
+        </div>
+        <div data-note="E1" class="tile-row white">
+          <div data-note="Eb1" class="tile-row black"></div>
+        </div>
+        <div data-note="F1" class="tile-row white"></div>
+        <div data-note="G1" class="tile-row white">
+          <div data-note="Gb1" class="tile-row black"></div>
+        </div>
+        <div data-note="A1" class="tile-row white">
+          <div data-note="Ab1" class="tile-row black"></div>
+        </div>
+        <div data-note="B1" class="tile-row white">
+          <div data-note="Bb1" class="tile-row black"></div>
+        </div>
+
+
+        <div data-note="C2" class="tile-row white"></div>
+        <div data-note="D2" class="tile-row white">
+          <div data-note="Db2" class="tile-row black"></div>
+        </div>
+        <div data-note="E2" class="tile-row white">
+          <div data-note="Eb2" class="tile-row black"></div>
+        </div>
+        <div data-note="F2" class="tile-row white"></div>
+        <div data-note="G2" class="tile-row white">
+          <div data-note="Gb2" class="tile-row black"></div>
+        </div>
+        <div data-note="A2" class="tile-row white">
+          <div data-note="Ab2" class="tile-row black"></div>
+        </div>
+        <div data-note="B2" class="tile-row white">
+          <div data-note="Bb2" class="tile-row black"></div>
+        </div>
+
+        <div data-note="C3" class="tile-row white"></div>
+        <div data-note="D3" class="tile-row white">
+          <div data-note="Db3" class="tile-row black"></div>
+        </div>
+        <div data-note="E3" class="tile-row white">
+          <div data-note="Eb3" class="tile-row black"></div>
+        </div>
+        <div data-note="F3" class="tile-row white"></div>
+        <div data-note="G3" class="tile-row white">
+          <div data-note="Gb3" class="tile-row black"></div>
+        </div>
+        <div data-note="A3" class="tile-row white">
+          <div data-note="Ab3" class="tile-row black"></div>
+        </div>
+        <div data-note="B3" class="tile-row white">
+          <div data-note="Bb3" class="tile-row black"></div>
+        </div>
+
+        <div data-note="C4" class="tile-row white"></div>
+        <div data-note="D4" class="tile-row white">
+          <div data-note="Db4" class="tile-row black"></div>
+        </div>
+        <div data-note="E4" class="tile-row white">
+          <div data-note="Eb4" class="tile-row black"></div>
+        </div>
+        <div data-note="F4" class="tile-row white"></div>
+        <div data-note="G4" class="tile-row white">
+          <div data-note="Gb4" class="tile-row black"></div>
+        </div>
+        <div data-note="A4" class="tile-row white">
+          <div data-note="Ab4" class="tile-row black"></div>
+        </div>
+        <div data-note="B4" class="tile-row white">
+          <div data-note="Bb4" class="tile-row black"></div>
+        </div>
+
+        <div data-note="C5" class="tile-row white"></div>
+        <div data-note="D5" class="tile-row white">
+          <div data-note="Db5" class="tile-row black"></div>
+        </div>
+        <div data-note="E5" class="tile-row white">
+          <div data-note="Eb5" class="tile-row black"></div>
+        </div>
+        <div data-note="F5" class="tile-row white"></div>
+        <div data-note="G5" class="tile-row white">
+          <div data-note="Gb5" class="tile-row black"></div>
+        </div>
+        <div data-note="A5" class="tile-row white">
+          <div data-note="Ab5" class="tile-row black"></div>
+        </div>
+        <div data-note="B5" class="tile-row white">
+          <div data-note="Bb5" class="tile-row black"></div>
+        </div>
+
+        <div data-note="C6" class="tile-row white"></div>
+        <div data-note="D6" class="tile-row white">
+          <div data-note="Db6" class="tile-row black"></div>
+        </div>
+        <div data-note="E6" class="tile-row white">
+          <div data-note="Eb6" class="tile-row black"></div>
+        </div>
+        <div data-note="F6" class="tile-row white"></div>
+        <div data-note="G6" class="tile-row white">
+          <div data-note="Gb6" class="tile-row black"></div>
+        </div>
+        <div data-note="A6" class="tile-row white">
+          <div data-note="Ab6" class="tile-row black"></div>
+        </div>
+        <div data-note="B6" class="tile-row white">
+          <div data-note="Bb6" class="tile-row black"></div>
+        </div>
+
+        <div data-note="C7" class="tile-row white"></div>
+        <div data-note="D7" class="tile-row white">
+          <div data-note="Db7" class="tile-row black"></div>
+        </div>
+        <div data-note="E7" class="tile-row white">
+          <div data-note="Eb7" class="tile-row black"></div>
+        </div>
+        <div data-note="F7" class="tile-row white"></div>
+        <div data-note="G7" class="tile-row white">
+          <div data-note="Gb7" class="tile-row black"></div>
+        </div>
+        <div data-note="A7" class="tile-row white">
+          <div data-note="Ab7" class="tile-row black"></div>
+        </div>
+        <div data-note="B7" class="tile-row white">
+          <div data-note="Bb7" class="tile-row black"></div>
+        </div>
+      </div>
+    </div>
+    <div class="keyboard">
+      <div data-note="A0" class="key white-left">
+        <div data-note="Ab0" class="key-black"></div>
+      </div>
+      <div data-note="B0" class="key white-right">
+        <div data-note="Bb0" class="key-black"></div>
+      </div>
+
+      <div data-note="C1" class="key white-left"></div>
+      <div data-note="D1" class="key white-center">
+        <div data-note="Db1" class="key-black"></div>
+      </div>
+      <div data-note="E1" class="key white-right">
+        <div data-note="Eb1" class="key-black"></div>
+      </div>
+      <div data-note="F1" class="key white-left"></div>
+      <div data-note="G1" class="key white-center">
+        <div data-note="Gb1" class="key-black"></div>
+      </div>
+      <div data-note="A1" class="key white-center">
+        <div data-note="Ab1" class="key-black"></div>
+      </div>
+      <div data-note="B1" class="key white-right">
+        <div data-note="Bb1" class="key-black"></div>
+      </div>
+
+      <div data-note="C2" class="key white-left"></div>
+      <div data-note="D2" class="key white-center">
+        <div data-note="Db2" class="key-black"></div>
+      </div>
+      <div data-note="E2" class="key white-right">
+        <div data-note="Eb2" class="key-black"></div>
+      </div>
+      <div data-note="F2" class="key white-left"></div>
+      <div data-note="G2" class="key white-center">
+        <div data-note="Gb2" class="key-black"></div>
+      </div>
+      <div data-note="A2" class="key white-center">
+        <div data-note="Ab2" class="key-black"></div>
+      </div>
+      <div data-note="B2" class="key white-right">
+        <div data-note="Bb2" class="key-black"></div>
+      </div>
+
+      <div data-note="C3" class="key white-left"></div>
+      <div data-note="D3" class="key white-center">
+        <div data-note="Db3" class="key-black"></div>
+      </div>
+      <div data-note="E3" class="key white-right">
+        <div data-note="Eb3" class="key-black"></div>
+      </div>
+      <div data-note="F3" class="key white-left"></div>
+      <div data-note="G3" class="key white-center">
+        <div data-note="Gb3" class="key-black"></div>
+      </div>
+      <div data-note="A3" class="key white-center">
+        <div data-note="Ab3" class="key-black"></div>
+      </div>
+      <div data-note="B3" class="key white-right">
+        <div data-note="Bb3" class="key-black"></div>
+      </div>
+
+      <div data-note="C4" class="key white-left"></div>
+      <div data-note="D4" class="key white-center">
+        <div data-note="Db4" class="key-black"></div>
+      </div>
+      <div data-note="E4" class="key white-right">
+        <div data-note="Eb4" class="key-black"></div>
+      </div>
+      <div data-note="F4" class="key white-left"></div>
+      <div data-note="G4" class="key white-center">
+        <div data-note="Gb4" class="key-black"></div>
+      </div>
+      <div data-note="A4" class="key white-center">
+        <div data-note="Ab4" class="key-black"></div>
+      </div>
+      <div data-note="B4" class="key white-right">
+        <div data-note="Bb4" class="key-black"></div>
+      </div>
+
+      <div data-note="C5" class="key white-left"></div>
+      <div data-note="D5" class="key white-center">
+        <div data-note="Db5" class="key-black"></div>
+      </div>
+      <div data-note="E5" class="key white-right">
+        <div data-note="Eb5" class="key-black"></div>
+      </div>
+      <div data-note="F5" class="key white-left"></div>
+      <div data-note="G5" class="key white-center">
+        <div data-note="Gb5" class="key-black"></div>
+      </div>
+      <div data-note="A5" class="key white-center">
+        <div data-note="Ab5" class="key-black"></div>
+      </div>
+      <div data-note="B5" class="key white-right">
+        <div data-note="Bb5" class="key-black"></div>
+      </div>
+
+      <div data-note="C6" class="key white-left"></div>
+      <div data-note="D6" class="key white-center">
+        <div data-note="Db6" class="key-black"></div>
+      </div>
+      <div data-note="E6" class="key white-right">
+        <div data-note="Eb6" class="key-black"></div>
+      </div>
+      <div data-note="F6" class="key white-left"></div>
+      <div data-note="G6" class="key white-center">
+        <div data-note="Gb6" class="key-black"></div>
+      </div>
+      <div data-note="A6" class="key white-center">
+        <div data-note="Ab6" class="key-black"></div>
+      </div>
+      <div data-note="B6" class="key white-right">
+        <div data-note="Bb6" class="key-black"></div>
+      </div>
+
+      <div data-note="C7" class="key white-left"></div>
+      <div data-note="D7" class="key white-center">
+        <div data-note="Db7" class="key-black"></div>
+      </div>
+      <div data-note="E7" class="key white-right">
+        <div data-note="Eb7" class="key-black"></div>
+      </div>
+      <div data-note="F7" class="key white-left"></div>
+      <div data-note="G7" class="key white-center">
+        <div data-note="Gb7" class="key-black"></div>
+      </div>
+      <div data-note="A7" class="key white-center">
+        <div data-note="Ab7" class="key-black"></div>
+      </div>
+      <div data-note="B7" class="key white-right">
+        <div data-note="Bb7" class="key-black"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="piano.js"></script>
+</body>
+
+</html>
